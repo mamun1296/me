@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+*{margin:0px;padding:0px;}
+.homepage{
+		  font-family: 'Roboto', sans-serif; 
+		  font-size:16px;
+		  line-height:25px;
+}
+im{width:100%;max-width:100%;}
+.main-content{
+	width:1170px;
+	margin:0 auto;
+	
+}
+.main-header{}
+.main-header img {
+    width: 200px;
+    padding: 25px 0px;
+}
+nav {
+    background: #1C1C1E;
+	overflow:hidden;
+}
+.main-manu ul{
+	list-style:none;
+}
+
+.manu ul li {
+    float:  left;
+}
+.manu ul li a{
+    display: block;
+    width: 100px;
+    height: 32px;
+    padding: 8px 0 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #5fa008;
+    font-weight: normal;
+    outline: none;
+    border: none;
+    background: url(../img/tooplate_menu.png) no-repeat bottom center;
+}
+.manu-img {
+    float:  left;
+    padding-right: 8px;
+}
+.manu ul li a:hover, .manu ul li .current{    
+    color: #fff;
+    height: 38px;
+    padding: 5px 0 0 0;
+    background: url(../img/tooplate_menu_hover.png) bottom center no-repeat;
+}
+.sarcbar{
+    float: right;
+    margin: 12px 0 0 0;
+    width: 170px;
+    height: 27px;
+    background: url(../img/tooplate_search.png) no-repeat;
+}
+.sarcbar form{
+    clear: both;
+    width: 170px;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+}
+#searchfield {
+    float: left;
+    display: block;
+    height: 16px;
+    width: 130px;
+    padding: 5px;
+    font-size: 12px;
+    color: #ccc;
+    line-height: 0;
+    background: none;
+    border: none;
+}
+#searchbutton {
+    float: right;
+    display: block;
+    height: 26px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+}   
+.slider {
+    background: #5fa009;
+    border-bottom: 8px solid #4e4b4b;
+    margin-bottom: 69px;
+}
+div#tooplate_middle {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.welcome h2 {
+    margin-top:  30px;
+    font-size:  35px;
+	margin-bottom: 26px;
+}
+.medel-col-1170{overflow:hidden;margin-bottom:50px;}
+.call-585-left {
+    overflow:  hidden;
+    width:  470px;
+    float:  left;
+	display:block;
+}
+
+.call-585-right {
+    overflow:  hidden;
+    width:  580px;
+    float:  right;
+	display:block;
+}
+.left-top img {
+    display:  block;
+    padding: 20px 30px 20px 0px;
+    float:  left;
+}
+
+.left-top h3 {
+    padding:  15px;
+    /* float:  left; */
+    padding-top: 10p;
+}
+
+.left-top h3 a {
+    text-decoration:  none;
+    color: #000;
+}
+.left-top h3 a:hover {
+    text-decoration:underline;
+    
+}
+
+.left-top {}
+
+.left-top p {
+    text-align:  justify;
+    font-size:  14px;
+	width:410px;
+}
+
+.left-top p a {
+    text-decoration:  none;
+    color:  red;
+}
+.left-top p a:hover {
+    text-decoration:underline;
+
+}
+.latest-pro h2 {
+    font-size:  38px;
+    padding: 30px 0px;
+}
+.letest-projeckt {
+    padding: 30px 0px;
+    display:  block;
+}
+
+.letest-projeckt h2 {
+    font-size:  35px;
+}
+.letest-projeckt-block {
+    padding: 15px 0px 94px 0px;
+	overflow:hidden;
+}
+
+.lblock {
+    width: 350px;
+    display:  block;
+	float:left;
+	margin: 0px 20px;
+	
+}
+.pblock h2 {
+    overflow:  hidden;
+    display:  block;
+    padding: 16px 0px;
+}
+
+.pblock img {
+    padding:  3px;
+    border: 1px solid #00000059;
+    width:  319px;
+}
+
+.pblock p {
+    font-size:  13px;
+}
+.gallery {
+    padding:  40px 0px;
+}
+
+.gallery h1 {
+    color:  #fff;
+    font-size:  33px;
+    margin:  20px 0px;
+}
+
+.gallery p {
+    color:  #fff;
+    font-size: 14px;
+}
+.fast-gl-bl {
+    border: 1px solid #0000004d;
+    width: 344px;
+    height: 320px;
+    float:  left;
+	margin: 22px;
+}
+
+.gallery-block {
+    overflow:  hidden;
+}
+
+.gl-h2 {
+    padding:  10px 0;
+    font-size: 19px;
+}
+.gl-img img {
+    width: 310px;
+    height: 188px;
+    margin: 10px 0;
+    padding:  3px;
+    background:  #fff;
+    border: 1px solid #0000004f;
+}
+.gl-seemore h4 {
+    clear: both;
+    display:  block;
+    width: 107px;
+    height: 30px;
+    float:  right;
+    font-weight:  bold;
+    text-align:  center;
+    overflow: hidden;
+    background: url(../img/tooplate_button.png)no-repeat;
+	padding-top: 2px;
+}
+.gl-seemore h4:hover{color:#fff;}
+.gl-img {
+    padding-left:  13px;
+}
+
+.gl-h2 {
+    padding-left:  13px;
+}
+
+.gl-seemore {
+    padding-right: 8px;
+}
+.main-news {
+    overflow:  hidden;
+    /* border:1px solid; */
+    width:  750px;
+    
+}
+.news-block {
+    float:  left;
+    margin-bottom: 60px;
+}
+.news-post img {
+    clear:  both;
+    display: block;
+    background:  #fff;
+    padding: 2px;
+    border: 1px solid #00000075;
+    float:  left;
+    margin-right: 40px;
+}
+
+.news-post h2 {
+    font-size:  28px;
+    padding-top:  2px;
+}
+
+.news-post h5 {
+    padding-top: 0px;
+    padding-top: 1px;
+}
+
+.news-post p {
+    text-align:  justify;
+    font-size:  13px;
+}
+.news-post h3, .blog-post h3  {
+    clear:  both;
+    display:  block;
+    float:  right;
+    text-align:  center;
+    width:  100px;
+    height:  30px;
+    background: url(../img/tooplate_button.png)no-repeat;
+    padding-top:  2px;
+}
+.main-side-news {
+    overflow:  hidden;
+    
+    width:  350px;
+    float: right;
+}
+
+.main-side-block {
+    float:  right;
+	margin-bottom: 41px;
+}
+.main-side-post h1 {
+    margin-bottom: 20px;
+    font-size:  32px;
+}
+
+.main-side-post a {
+    text-decoration:  none;
+    /* color: black; */
+    /* font-size: 20px; */
+}
+
+.main-side-post p {}
+
+.main-side-post a p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.main-side-post a p:hover{text-decoration:underline;}
+
+.main-side-post p {
+    font-size: 13px;
+    text-align:  justify;
+    margin-bottom:  9px;
+}
+.main-side-latest-post h1 {
+    font-size:  33px;
+    margin-bottom:  20px;
+}
+
+.main-side-latest-post img {
+    clear:  both;
+    width: 340px;
+    height:  180px;
+    background:  #fff;
+    padding:  3px;
+    border: 1px solid #00000040;
+}
+
+.main-side-latest-post p {
+    font-size:  14px;
+    text-align:  justify;
+}
+.main-side-latest-post p a {
+    text-decoration:  none;
+    color:  red;
+}
+.main-side-latest {
+    margin-bottom: 54px;
+}
+.blog-post p {
+    font-size:  13px;
+    margin-bottom:  2px;
+	text-align: justify;
+}
+
+.blog-post p a {
+    text-decoration:  none;
+    color:  red;
+}
+
+.blog-post p a:hover {
+    text-decoration:  underline;
+}
+
+.blog-post h2 {
+    font-size:  25px;
+    margin-bottom:  15px;
+}
+
+.blog-post img {
+    padding: 10px;
+    background:  #ddd;
+}
+
+
+
+
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+#footer{background: #32323c;overflow:hidden;}
+
+
+.footer-block{padding:20px 0px;overflow:hidden;margin-bottom: 33px;display:block;}
+.fblock {width: 360px;float:left;/* padding-right: 90px; */display:block;margin: 0px 15px;}
+.fblock h2{font-size:15px;color: #ffffffb0;border-bottom: 2px solid #ffffff42;margin-bottom:  15px;display:block;}
+.links{}
+.links ul{list-style:none;}
+.links ul li{}
+.links ul li a {
+    color: #ffffffa3;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px 0px;
+    display: block;
+}
+.links ul li a:hover{text-decoration:underline;}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.copiright {
+    display:  block;
+    color: #ffffffb0;
+    background: #1c1c1e;
+    padding: 20px;
+    text-align:  center;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
